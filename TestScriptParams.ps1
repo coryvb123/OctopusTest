@@ -5,10 +5,10 @@ Param (
     [string]$MachineName,
 
     [Parameter(Mandatory=$False)]
-    [string]$TenantVariable1,
+    [string]$TenantVariable1
 
-    [Parameter(Mandatory=$False)]
-    [string]$TenantVariable2
+    # [Parameter(Mandatory=$False)]
+    # [string]$TenantVariable2
 )
 
 # -MachineName #{Octopus.Machine.Name}
